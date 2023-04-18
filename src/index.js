@@ -28,7 +28,7 @@ var areasVerdes = $.ajax({
 var institucional = $.ajax({
   url:"https://raw.githubusercontent.com/lfpdroubi/SBVT/master/AreaInstitucional.geojson",
   dataType: "json",
-  success: console.log("Institutinal data successfully loaded."),
+  success: console.log("Institutional data successfully loaded."),
   error: function (xhr) {
     alert(xhr.statusText);
   }
